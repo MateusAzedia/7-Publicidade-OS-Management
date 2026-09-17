@@ -19,7 +19,7 @@ A simple internal system to manage clients and service orders (ordens de serviç
 
 🚧 In active development — MVP roadmap in progress.
 
-Current phase: **Fase 4 — Database modeling**
+Current phase: **Fase 5 - auth (setup)**
 
 ## Getting Started
 
