@@ -19,7 +19,7 @@ A simple internal system to manage clients and service orders (ordens de serviç
 
 🚧 In active development — MVP roadmap in progress.
 
-Current phase: **Fase 5 — Auth (em andamento)** | Fase 6 (RLS) já implementada, pendente de teste
+Current phase: **Fase 5 — Auth (login funcionando, falta logout e recuperação de senha)** | Fase 6 (RLS) implementada e validada com usuário admin real
 
 ## Getting Started
 
