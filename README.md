@@ -19,7 +19,10 @@ A simple internal system to manage clients and service orders (ordens de serviç
 
 🚧 In active development — MVP roadmap in progress.
 
-Current phase: **Fase 5 — Auth (login funcionando, falta logout e recuperação de senha)** | Fase 6 (RLS) implementada e validada com usuário admin real
+Current phase: **Fase 7 — Clientes** (CRUD)
+
+Pendente (não bloqueia o roadmap, mas necessário antes da demo):
+- Tela de admin criar usuário (hoje só dá pra criar direto no painel do Supabase)
 
 ## Getting Started
 
