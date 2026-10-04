@@ -1,5 +1,5 @@
 import { createClient } from '@/lib/supabase/server'
-import { notFound } from 'next/navigation'
+import { notFound, redirect } from 'next/navigation'
 import EditarClienteForm from './form'
 
 export default async function EditarClientePage({
@@ -9,6 +9,14 @@ export default async function EditarClientePage({
 }) {
   const { id } = await params
   const supabase = await createClient()
+
+  const {
+    data: { user },
+  } = await supabase.auth.getUser()
+
+  if (!user) {
+    redirect('/login')
+  }
 
   const { data: cliente } = await supabase
     .from('clientes')
