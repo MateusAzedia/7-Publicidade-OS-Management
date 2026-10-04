@@ -46,11 +46,7 @@ export async function editarCliente(id: string, formData: FormData) {
 export async function excluirCliente(id: string) {
   const supabase = await createClient()
 
-  const { error } = await supabase.from('clientes').delete().eq('id', id)
-
-  if (error) {
-    return { error: error.message }
-  }
+  await supabase.from('clientes').delete().eq('id', id)
 
   revalidatePath('/clientes')
 }

@@ -88,11 +88,7 @@ export async function atualizarStatus(id: string, formData: FormData) {
 export async function excluirOS(id: string) {
   const supabase = await createClient()
 
-  const { error } = await supabase.from('ordens_servico').delete().eq('id', id)
-
-  if (error) {
-    return { error: error.message }
-  }
+  await supabase.from('ordens_servico').delete().eq('id', id)
 
   revalidatePath('/ordens-servico')
 }
