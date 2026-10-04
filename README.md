@@ -19,16 +19,16 @@ A simple internal system to manage clients and service orders (ordens de serviç
 
 🚧 In active development — MVP roadmap in progress.
 
-Current phase: **Fase 11 — Deploy na Vercel**
+Current phase: **Fase 12 — Polimento**
 
 Concluído:
-- Fase 1-9: Ambiente, projeto, Supabase, banco, Auth, Roles+RLS, CRUD Clientes,
-  CRUD OS, fluxo de Status — todos testados e validados
-- Fase 10: QA completo — testado admin vs funcionário em todas as telas, campos
-  inválidos, IDs inexistentes, e acesso sem login. 3 bugs encontrados e corrigidos
-  (policy RLS com subquery ambígua, páginas sem redirect de sessão em /clientes,
-  /ordens-servico e suas rotas de edição)
+- Fase 1-11: Ambiente até Deploy, tudo testado e validado em produção
+- Fase 12 (parcial): Layout compartilhado com navbar, login redireciona se já
+  logado, CRUD completo de Funcionários (criar/editar/excluir) para o admin
+  não depender mais do painel do Supabase
 
+Restante da Fase 12: responsividade mobile, confirmação antes de ações
+destrutivas (excluir), revisão geral de loading/empty states
 ## Getting Started
 
 ```bash
