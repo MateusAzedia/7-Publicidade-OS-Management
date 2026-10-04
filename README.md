@@ -21,6 +21,15 @@ A simple internal system to manage clients and service orders (ordens de serviç
 
 Current phase: **Fase 10 — QA e Segurança**
 
+Concluído:
+- Fase 1-6: Ambiente, projeto, Supabase, banco, Auth completo, Roles+RLS
+- Fase 7: CRUD completo de Clientes
+- Fase 8: CRUD completo de Ordens de Serviço
+- Fase 9: Fluxo de status validado com usuário admin E funcionário reais
+
+Pendente para amanhã: Fase 10 (QA formal), Fase 11 (Deploy Vercel), 
+Fase 12 (Polimento, incluindo navegação compartilhada e form de status inline
+
 ## Getting Started
 
 ```bash
