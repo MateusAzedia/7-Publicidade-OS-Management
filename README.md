@@ -19,10 +19,10 @@ A simple internal system to manage clients and service orders (ordens de serviç
 
 🚧 In active development — MVP roadmap in progress.
 
-Current phase: **Fase 8 — Ordens de Serviço** (CRUD)
+Current phase: **Fase 9 — Status** (fluxo operacional)
 
-Pendente (não bloqueia o roadmap, mas necessário antes da demo):
-- Tela de admin criar usuário (hoje só dá pra criar direto no painel do Supabase)
+Pendente: validar fluxo de status com um usuário funcionário real (ainda só testado
+como admin)
 
 ## Getting Started
 
